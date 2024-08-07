@@ -35,3 +35,19 @@ td {
 td.price {
     text-align: end;
 }
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+.inline-label {
+    display: inline;
+}
+
+textarea {
+    min-height: 100px;
+}
