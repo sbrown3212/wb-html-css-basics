@@ -8,103 +8,105 @@
   </head>
 
   <body>
-    <header>
-      <h1>
-        Order a Smoothiegram
-      </h1>
-      <p class="lead">
-        There's no better way to show a loved one you care than with a Smoothiegram!
-      </p>
-      <p>
-        Each Smoothiegram comes with a custom message printed on high-quality cardstock and your choice of a premium, hand-crafted smoothie.
-      </p>
-    </header>
-
-    <main>
-      <section>
-        <h2>
-          Smoothie Options
-        </h2>
-        <p>
-          Choose from one of these smoothies.
+    <div id="container">
+      <header>
+        <h1>
+          Order a Smoothiegram
+        </h1>
+        <p class="lead">
+          There's no better way to show a loved one you care than with a Smoothiegram!
         </p>
-        <table>
-          <thead>
-            <tr>
-              <th>Flavor</th>
-              <th>Price</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Super Strawberries Delicious</td>
-              <td class="price">$1,200.00</td>
-            </tr>
-            <tr>
-              <td>White Grape Ranger</td>
-              <td class="price">$400.00</td>
-            </tr>
-            <tr>
-              <td>Blueberry Blast</td>
-              <td class="price">$1,750.00</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-
-      <section>
-        <h2>
-          Order Form
-        </h2>
-        <form action="">
-          <div class="form-group">
-            <label for="">Your name</label>
-            <input type="text" name="name" id="">
-          </div>
-
-          <div class="form-group">
-            <label for="">Who are we sending this to?</label>
-            <input type="text" name="recipient">
-          </div>
-          
-          <div class="form-group">
-            <label for="">Choose a smoothie</label>
-            <select name="" id="">
-              <option value="">Please choose an option</option>
-              <option value="super strawberries delicious">Super Strawberries Delicious</option>
-              <option value="white grape ranger">White Grape Ranger</option>
-              <option value="blueberry blast">Blueberry Blast</option>
-            </select>
-          </div>
-          
-          <div class="form-group">
-            <span>When should we deliver?</span>
-            <input type="radio" name="delivery-time" id="asap">
-            <label class="inline-label" for="asap">As soon as possible</label>
+        <p>
+          Each Smoothiegram comes with a custom message printed on high-quality cardstock and your choice of a premium, hand-crafted smoothie.
+        </p>
+      </header>
+      
+      <main>
+        <section>
+          <h2>
+            Smoothie Options
+          </h2>
+          <p>
+            Choose from one of these smoothies.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Flavor</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Super Strawberries Delicious</td>
+                <td class="price">$1,200.00</td>
+              </tr>
+              <tr>
+                <td>White Grape Ranger</td>
+                <td class="price">$400.00</td>
+              </tr>
+              <tr>
+                <td>Blueberry Blast</td>
+                <td class="price">$1,750.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        
+        <section>
+          <h2>
+            Order Form
+          </h2>
+          <form action="">
+            <div class="form-group">
+              <label for="">Your name</label>
+              <input type="text" name="name" id="">
+            </div>
             
-            <input type="radio" name="delivery-time" id="morning">
-            <label class="inline-label" for="morning">Morning</label>
+            <div class="form-group">
+              <label for="">Who are we sending this to?</label>
+              <input type="text" name="recipient">
+            </div>
             
-            <input type="radio" name="delivery-time" id="afternoon">
-            <label class="inline-label" for="afternoon">Afternoon</label>
-          </div>
+            <div class="form-group">
+              <label for="">Choose a smoothie</label>
+              <select name="" id="">
+                <option value="">Please choose an option</option>
+                <option value="super strawberries delicious">Super Strawberries Delicious</option>
+                <option value="white grape ranger">White Grape Ranger</option>
+                <option value="blueberry blast">Blueberry Blast</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <span>When should we deliver?</span>
+              <input type="radio" name="delivery-time" id="asap">
+              <label class="inline-label" for="asap">As soon as possible</label>
+              
+              <input type="radio" name="delivery-time" id="morning">
+              <label class="inline-label" for="morning">Morning</label>
+              
+              <input type="radio" name="delivery-time" id="afternoon">
+              <label class="inline-label" for="afternoon">Afternoon</label>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Enter your message</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+            
+            <div class="form-group">
+              <label class="inline-label" for="subscribe">Subscribe to our newsletter?</label>
+              <input type="checkbox" name="subscribe" id="subscribe" checked>
+            </div>
+            
+            <div class="form-group">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
           
-          <div class="form-group">
-            <label for="message">Enter your message</label>
-            <textarea name="message" id="message"></textarea>
-          </div>
-          
-          <div class="form-group">
-            <label class="inline-label" for="subscribe">Subscribe to our newsletter?</label>
-            <input type="checkbox" name="subscribe" id="subscribe" checked>
-          </div>
-          
-          <div class="form-group">
-            <input type="submit" value="Submit">
-          </div>
-        </form>
-           
-      </section>
-    </main>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

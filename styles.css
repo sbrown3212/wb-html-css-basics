@@ -51,3 +51,8 @@ label {
 textarea {
     min-height: 100px;
 }
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+}
