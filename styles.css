@@ -17,3 +17,12 @@ section {
 section h2 {
     margin-top: 0;
 }
+
+th {
+    text-align: start;
+    border-bottom: 1px black solid;
+}
+
+table {
+    border-collapse: collapse;
+}
